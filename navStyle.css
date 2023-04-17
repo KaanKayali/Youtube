@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+li .eat{
+    margin-top: 10px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+nav ul a{
+    color: white;
+}
+
+nav li{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50px;
+}
+
+
+.menu{
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover:not(input[type=text]){
+    background-color: rgb(37, 37, 37);
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.menu li:hover > a{
+    color: #cfcfcf;
+}
+
+.menu li{
+    padding: 5px 14px;
+}
+
+#wrapper{
+    max-width: 1600px;
+    margin: 0 auto;
+}

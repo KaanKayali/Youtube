@@ -1,0 +1,13 @@
+getid3/
+
+todo.txt
+
+*.mp4
+
+thumbnails/
+
+Login/profilePictures/*
+
+!Login/profilePictures/profilePicture.png
+
+Login/Alternative
