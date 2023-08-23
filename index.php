@@ -19,7 +19,6 @@
                         <input id="searchbar" name="searchbar" type="text" class="textfield" placeholder="Search..." style="background-color: rgba(255, 255, 255, .7); color:rgb(60, 59, 59)" value="<?php if(isset($_GET["searchbar"])) echo $_GET["searchbar"]?>">
                         <input type="submit" value="Search" name="submit" class="button" style="background-color: rgb(37, 37, 37);">
                     </form>
-                    <li><a href="#" class='eat'>Hardcore Gay Porn</a></li>
                     <li><a href="#" class='eat'>Damjan</a></li>
                     
                     <li><a href="videoUpload.php" class="eat">Upload Video</a>
